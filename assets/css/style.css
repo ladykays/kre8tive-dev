@@ -4,6 +4,27 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* Element selectors */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  color: #ffffff;
+  font-size: 4.5rem;
+}
+.logo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #21A6B5;
+}
+
+/* .navbar-nav .nav-link {
+  color: #004aad;
+} */
 
 /* Hero Section */
 .hero {
@@ -12,4 +33,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 50rem;
+}
+
+.hero-text {
+  
+  height: 40vh; /* set the height of the container to half the viewport height */
 }
