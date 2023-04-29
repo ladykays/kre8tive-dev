@@ -110,7 +110,32 @@
 
     <!-- Contact -->
     <section id="Contact">
+      <h2 class="title">Contact</h2>
+      <div>
+        <form action="https://api.web3forms.com/submit" method="POST">
 
+          <input type="hidden" name="access_key" value="83dfac15-0283-4f4a-b449-b232d0b873fd">
+      
+          <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone: </label>
+            <input type="phone" name="phone">
+          </div>
+          <div>
+            <label for="message">Message: </label>
+            <textarea name="message" rows="5" cols="33" required></textarea>
+          </div>
+          <button type="submit">Submit Form</button>
+      
+      </form>
+      </div>
     </section>
   </main>
 
