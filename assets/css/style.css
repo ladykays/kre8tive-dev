@@ -15,6 +15,12 @@ h1 {
   color: #FFF;
   font-size: 4.5rem;
 }
+p {
+  color: #8f8f8f;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
 
 
 /* 
@@ -22,23 +28,6 @@ h1 {
 Sections 
 ------------------------------
 */
-
-/* Header Section */
-.header-section {
-  /* background-image: linear-gradient(#3A98B9, #FFF1DC); */
-  background-image: linear-gradient(#004AAD, #5DE0E6);
-}
-
-/* Navigation Bar */
-.navbar {
-  padding: 0 0 8rem;
-}
-.navbar-nav .nav-link:hover {
-  color: #da9151
-}
-
-
-
 
 /* Containers */
 .container-fluid {
@@ -50,13 +39,45 @@ header .container-fluid {
 .slogan-container {
   padding: 0 0 8rem;
 }
-
+.about-box-container {
+  padding-top: 4rem;
+}
 
 /* Headings */
 .big-heading {
   padding: 0 0 3rem 0;
 }
+.title {
+ font-size: 3rem;
+ font-weight: 700;
+ line-height: 1.5;
+}
 
+/* Header Section */
+.header-section {
+  /* background-image: linear-gradient(#3A98B9, #FFF1DC); */
+  background-image: linear-gradient(#004AAD, #5DE0E6);
+}
 
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 8rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 00;
+}
+.navbar-nav .nav-link:hover {
+  color: #da9151
+}
 
+/* About Section */
+.fa-about-icon{
+  background: -webkit-linear-gradient(#004AAD, #5DE0E6);
+  /* Set the background clip property to "text", which means that the background gradient will only be applied to the text inside the element. */
+  -webkit-background-clip: text;
+  /* Set the text fill color property to "transparent", which makes the text inside the element transparent so that the background gradient can show through. */
+  -webkit-text-fill-color: transparent;
+  padding: 0 0 1rem;
+} 
 
