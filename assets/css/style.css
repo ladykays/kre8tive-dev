@@ -43,6 +43,7 @@ header .container-fluid {
   padding-top: 4rem;
 }
 
+
 /* Headings */
 .big-heading {
   padding: 0 0 3rem 0;
@@ -80,8 +81,10 @@ header .container-fluid {
 /* About Section */
 .fa-about-icon{
   background: -webkit-linear-gradient(#004AAD, #5DE0E6);
+  background: linear-gradient(#004AAD, #5DE0E6);
   /* Set the background clip property to "text", which means that the background gradient will only be applied to the text inside the element. */
   -webkit-background-clip: text;
+  background-clip: text;
   /* Set the text fill color property to "transparent", which makes the text inside the element transparent so that the background gradient can show through. */
   -webkit-text-fill-color: transparent;
   padding: 0 0 1rem;
