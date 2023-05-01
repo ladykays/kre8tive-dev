@@ -95,3 +95,13 @@ header .container-fluid {
   background-color: #E8D5C4;
 }
 
+/* Contact Section */
+.field {
+  padding: 1rem;
+} 
+
+/* Footer Section */
+.footer-section {
+  background-color: rgb(106, 106, 106);
+  color: antiquewhite;
+}
