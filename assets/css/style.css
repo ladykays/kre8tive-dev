@@ -46,6 +46,12 @@ header .container-fluid {
 /* Headings */
 .big-heading {
   padding: 0 0 3rem 0;
+  line-height: 1.5;
+}
+.online {
+  background-color: #3e2ecf;
+  padding: 0 20px;
+
 }
 .title {
  font-size: 3rem;
@@ -80,4 +86,9 @@ header .container-fluid {
   -webkit-text-fill-color: transparent;
   padding: 0 0 1rem;
 } 
+
+/* Projects Section */
+.projects-section {
+  background-color: #E8D5C4;
+}
 
