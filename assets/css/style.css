@@ -97,7 +97,9 @@ header .container-fluid {
 .card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
-
+.white-img {
+  border-bottom: 1px solid #8a511e;
+}
 .card-footer {
   border: none;
   background-color: #da9151;
