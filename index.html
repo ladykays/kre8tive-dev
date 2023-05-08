@@ -49,16 +49,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@
     <!-- Main Section -->
     <main>
       <!-- About -->
-      <section id="About" class="about-section">
+      <section id="about" class="about-section">
         <div class="container-fluid">
           <h2 class="title" id="about">About</h2>
           <div class="text">
@@ -141,133 +141,76 @@
       </section>
 
       <!-- Projects -->
-      <section id="Projects" class="projects-section">
+      <section id="projects" class="projects-section">
         <div class="container-fluid">
           <h2 class="title">Projects</h2>
-          <div
-            id="carouselExampleAutoplaying"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-8">
-                      <a href="https://thavmedia.com" target="_blank">
-                        <img
-                          src="./assets/images/thav.png"
-                          class="img-fluid rounded-start"
-                          alt="Thav Media"
-                        />
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-body">
-                        <h5 class="card-title">Thav Media</h5>
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This content is
-                          a little bit longer.
-                        </p>
-                        <p class="card-text">
-                          <small class="text-body-secondary"
-                            >Last updated 3 mins ago</small
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/images/wax-3.png" class="card-img-top" alt="wax and wicks website">
+                <div class="card-body">
+                  <h5 class="card-title">Wax & Wicks</h5>
+                  <p class="card-text">This is an ecommerce site that caters for candle enthusiasts who seek to buy high quality candles online.</p>
+                </div>
+                <a href="https://ghilservices.co.uk/" target="_blank" class="card-footer btn btn-warning text-body-secondary">
+                  Visit Site
+                </a>
+              </div>
+            </div>
+            <!-- <div class="col">
+              <div class="card h-100">
+                <img src="./assets/images/ghil.png" class="card-img-top" alt="ghil website">
+                <div class="card-body">
+                  <h5 class="card-title">GHIL</h5>
+                  <p class="card-text">This is a site for a business which offers consultancy and guardinship services to students who want to study abroad.</p>
+                </div>
+                <a href="https://ghilservices.co.uk/" target="_blank" class="card-footer btn btn-warning">
+                  Visit Site
+                </a>
+              </div>
+            </div> -->
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/images/pourcast.png" class="card-img-top" alt="weather pourcast website">
+                <div class="card-body">
+                  <h5 class="card-title">Weather Pourcast</h5>
+                  <p class="card-text">This is a web application that offers users a unique experience by offering cocktail recommendations based on the temperature at their location.</p>
+                </div>
+                <a href="https://jessie93.github.io/Weather-Pourcast/index.html" target="_blank" class="card-footer btn btn-warning text-body-secondary">
+                  Visit Site
+                </a>
+              </div>
+            </div>
+            <!-- <div class="col">
+              <div class="card h-100">
+                <img src="./assets/images/thav.png" class="card-img-top" alt="thav media website">
+                <div class="card-body">
+                  <h5 class="card-title">Thav Media</h5>
+                  <p class="card-text">This is a site for a media company. The site features news, and pages that showcases other services the company renders.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-8">
-                      <a href="https://ghilservices.co.uk/" target="_blank">
-                        <img
-                          src="./assets/images/ghil.png"
-                          class="img-fluid rounded-start"
-                          alt="GHIL Services"
-                        />
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-body">
-                        <h5 class="card-title">Ghil Services</h5>
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This content is
-                          a little bit longer.
-                        </p>
-                        <p class="card-text">
-                          <small class="text-body-secondary"
-                            >Last updated 3 mins ago</small
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            </div> -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/images/gap.png" class="card-img-top" alt="gap daysprings website">
+                <div class="card-body">
+                  <h5 class="card-title">Gap Dayspring</h5>
+                  <p class="card-text">This is a site for a properties agency. The website provides detailed information about properties, including photos, descriptions, and pricing</p>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card mb-3">
-                  <div class="row g-0">
-                    <div class="col-md-8">
-                      <a href="https://ghilservices.co.uk/" target="_blank">
-                        <img
-                          src="./assets/images/gap.png"
-                          class="img-fluid rounded-start"
-                          alt="GHIL Services"
-                        />
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-body">
-                        <h5 class="card-title">Ghil Services</h5>
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This content is
-                          a little bit longer.
-                        </p>
-                        <p class="card-text">
-                          <small class="text-body-secondary"
-                            >Last updated 3 mins ago</small
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+
           <a href="#" type="button">
-            <button class="btn btn-primary mx-auto p-6">
+            <button class="btn btn-primary mx-auto p-6 all-projects mt-5">
               See All Projects
             </button>
           </a>
@@ -275,7 +218,7 @@
       </section>
 
       <!-- Contact -->
-      <section id="Contact" class="contact-section">
+      <section id="contact" class="contact-section">
         <div class="container-fluid">
           <h2 class="title">Contact</h2>
           <div>

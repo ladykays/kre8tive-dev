@@ -94,6 +94,10 @@ header .container-fluid {
 .projects-section {
   background-color: #E8D5C4;
 }
+.card-footer {
+  border: none;
+  background-color: #da9151;
+}
 
 /* Contact Section */
 .field {
